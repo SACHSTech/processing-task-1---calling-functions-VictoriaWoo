@@ -53,6 +53,10 @@ public class Sketch extends PApplet {
     line(550, 75, 525, 100);
     line(580, 90, 570, 120);
 
+    // Quad (path)
+    fill(155, 118, 83);
+    quad(290, 350, 310, 350, 360, 400, 240, 400);
+
   }
   
 }
